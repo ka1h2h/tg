@@ -21,7 +21,7 @@ module.exports = {
       ],
     }),
   },
-
+  console.log(123)
   againOptions: {
     reply_markup: JSON.stringify({
       inline_keyboard: [[{ text: "Играть еще раз", callback_data: "/again" }]],
