@@ -10,7 +10,6 @@ const bot = new TelegramApi(token, { polling: true });
 const chats = {};
 
 const start = async () => {
-  console.log(123);
   try {
     await sequelize.authenticate();
     await sequelize.sync();
